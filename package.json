@@ -1,0 +1,26 @@
+{
+  "name": "router-dir",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/bin/server.ts",
+    "build": "tsc",
+    "start": "node dist/bin/server.js"
+  },
+  "keywords": [],
+  "author": "Standard Group",
+  "license": "MIT",
+  "description": "Express router directory structure recursive",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
